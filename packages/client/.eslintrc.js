@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next/core-web-vitals'],
+extends: ["next/babel","next/core-web-vitals"],
   rules: {
     'no-unused-vars': 'error',
     'no-debugger': 'error',
