@@ -4,7 +4,7 @@ export default function Document({children}: {children: React.ReactNode}) {
   return (
     <Html lang="en">
       <Head />
-      <body className={`mx-4 md:mx-48 xl:mx-96  font-sans bg-gray-200`}>
+      <body className={`mx-4 md:mx-48 xl:mx-96 lg:mx-30 font-sans bg-gray-200`}>
         <Main />
         {children}
         <NextScript />
