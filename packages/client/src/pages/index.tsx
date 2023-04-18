@@ -1,14 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-import Footer from 'src/components/Footer'
+import Head from 'next/head';
 
-const inter = Inter({ subsets: ['latin'] })
+import {Inter} from '@next/font/google';
+import styles from '../styles/Home.module.css';
 
-export default function Home({ children }: {
-  children: React.ReactNode;
-}){
+const inter = Inter({subsets: ['latin']});
+
+export default function Home({children}: {children: React.ReactNode}) {
   return (
     <>
       <Head>
@@ -18,9 +15,14 @@ export default function Home({ children }: {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>body</h1>
-        <Footer />
+        <div className="relative flex h-[500vh] w-full items-center justify-center bg-stone-900 text-3xl text-white">
+          <ul className="absolute flex h-full flex-col items-center justify-between p-20">
+            <li> This is a really long div...</li>
+            <li>Halfway there!</li>
+            <li>👋</li>
+          </ul>
+        </div>
       </main>
     </>
-  )
+  );
 }

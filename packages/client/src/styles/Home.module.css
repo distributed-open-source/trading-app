@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  min-height: auto;
 }
 
 .description {
@@ -275,4 +274,20 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.scrollToTops {
+  position: fixed;
+
+  bottom: 1.5rem;
+
+  right: 1.5rem;
+
+  cursor: pointer;
+
+  background-color: transparent;
+
+  border: none;
+
+  font-size: 3rem;
 }

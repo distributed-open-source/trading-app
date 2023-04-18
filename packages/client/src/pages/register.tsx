@@ -10,7 +10,6 @@ export default function Register(){
             <Termcheck/>
 
             <hr></hr>
-            <Switchmode/>
         </div>
     );
 }
