@@ -7,17 +7,18 @@ import {
   faFacebook,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
+
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white">
+    <div className="text-white" style={{background: "#111217"}}>
       <div className="container mx-auto py-20 px-4 grid grid-cols-12 gap-4">
         {/* Column 1 */}
-        <div className="col-span-3 grid grid-rows-1">
+        <div className="col-span-3 grid">
           {/* Row 1 */}
           <img src="/company-logo.png" alt="Company logo" />
 
-          {/* Row 2 */}
-          <div className="mt-10">
+          {/* Row 2 */} 
+          <div className="mt-4">
             <p className="text-sm text-justify mr-7">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -72,21 +73,21 @@ const Footer = () => {
         <div className="col-span-2 grid-rows-1">
           <div>
             <span className="text-sm">Exchange</span>
-            <ul className="list-disc mt-10">
+            <ul className="mt-10">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 1
+                  Exchange Home
                 </a>
               </li>
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white ">
-                  Link 1
+                  Margin Trading
                 </a>
               </li>
 
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 3
+                  Derivatives Trading
                 </a>
               </li>
             </ul>
@@ -97,21 +98,27 @@ const Footer = () => {
         <div className="col-span-2 grid grid-rows-1">
           <div>
             <span className="text-sm">Support</span>
-            <ul className="list-disc mt-10">
+              <ul className="mt-10">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 1
+                  Request Form
                 </a>
               </li>
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white ">
-                  Link 1
+                  Contact Support
                 </a>
               </li>
 
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 3
+                  FAQ
+                </a>
+              </li>
+
+              <li className="mt-4">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Security
                 </a>
               </li>
             </ul>
@@ -124,18 +131,18 @@ const Footer = () => {
             <ul className="list-disc  mt-10">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 1
+                  Referral
                 </a>
               </li>
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white ">
-                  Link 1
+                  Listing Trading
                 </a>
               </li>
 
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 3
+                  Buy Stocks
                 </a>
               </li>
             </ul>
@@ -146,21 +153,27 @@ const Footer = () => {
         <div className="col-span-2 grid grid-rows-1 gap-4">
           <div>
             <span className="text-base font-bold">Learn</span>
-            <ul className="list-disc mt-10">
+         <ul className="mt-10">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 1
+                  What's Trending
                 </a>
               </li>
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white ">
-                  Link 1
+                  Events
                 </a>
               </li>
 
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 3
+                  University
+                </a>
+              </li>
+              
+              <li className="mt-4">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Market Update
                 </a>
               </li>
             </ul>
@@ -171,21 +184,33 @@ const Footer = () => {
         <div className="col-span-1 grid grid-rows-1">
           <div>
             <span className="text-sm">Company</span>
-            <ul className="list-disc mt-10">
+         <ul className="mt-10">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 1
+                  About Us
                 </a>
               </li>
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white ">
-                  Link 1
+                  Careers
                 </a>
               </li>
 
               <li className="mt-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Link 3
+                  News
+                </a>
+              </li>
+
+              <li className="mt-4">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Community
+                </a>
+              </li>
+
+              <li className="mt-4">
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Announcements
                 </a>
               </li>
             </ul>

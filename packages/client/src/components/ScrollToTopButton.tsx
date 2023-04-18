@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import {faArrowAltCircleUp} from '@fortawesome/free-solid-svg-icons';
+import {faAngleUp} from '@fortawesome/free-solid-svg-icons';
 
 import {motion, AnimatePresence} from 'framer-motion';
 import styles from '../styles/Home.module.css';
@@ -62,7 +62,7 @@ const ScrollToTop = () => {
           initial="initial"
           animate="animate"
           exit="initial">
-          <FontAwesomeIcon icon={faArrowAltCircleUp} />
+          <FontAwesomeIcon icon={faAngleUp} color='#fff' style={{borderWidth: 1, borderRadius: 5, padding: 5 , fontSize: 30}} size='xs' />
         </motion.button>
       )}
     </AnimatePresence>
